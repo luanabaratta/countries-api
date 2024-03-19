@@ -9,10 +9,10 @@ se você se interessar em saber mais sobre algum país específico, clique nele 
 
 **Funcionalidades**
 
-<input type="checkbox" checked /> Tela Inicial Com Todos os Países <br />
-<input type="checkbox" checked /> Segunda tela para visualização de mais detalhes do país <br />
-<input type="checkbox" checked /> Filtrar por nome ou região <br />
-<input type="checkbox" checked /> Responsivo
+[x] Tela Inicial Com Todos os Países <br />
+[x] Segunda tela para visualização de mais detalhes do país <br />
+[x] Filtrar por nome ou região <br />
+[x] Responsivo
 
 **Tecnologias**
 
