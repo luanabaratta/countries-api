@@ -1,9 +1,24 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#  🚀 Countries API 🚀
 
-Currently, two official plugins are available:
+**Sobre**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# countries-api
+****
+Veja informações sobre vários países na tela inicial, filtre pelo nome e região, e
+se você se interessar em saber mais sobre algum país específico, clique nele e veja mais informações!
+
+**Funcionalidades**
+
+<input type="checkbox" checked /> Tela Inicial Com Todos os Países <br />
+<input type="checkbox" checked /> Segunda tela para visualização de mais detalhes do país <br />
+<input type="checkbox" checked /> Filtrar por nome ou região <br />
+<input type="checkbox" checked /> Responsivo
+
+**Tecnologias**
+
+* React.js
+* Axios
+* CSS3
+* React-Router
+* Hooks
+

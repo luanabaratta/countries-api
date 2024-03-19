@@ -9,14 +9,16 @@ const Navbar = () => {
         <nav>
           <div className="navbar">
             <ul>
-              <li className="logo center">
-                <BsCodeSlash />
-                <h3>Dev<span className="gray">Mundo</span></h3>
-              </li>
+              <Link to="/">
+                <li className="logo center">
+                  <BsCodeSlash />
+                  <h3>Dev<span className="gray">Mundo</span></h3>
+                </li>
+              </Link>
               <li className="app-links">
                 <div>
                   <Link to="/mapa">
-                    <h5 className="cente">
+                    <h5 className="center">
                       <AiOutlineGlobal/>
                       <span>Abrir o mapa</span>
                     </h5>

@@ -24,7 +24,7 @@ const Countries = () => {
       code: "europe",
     },
     {
-      name: "America",
+      name: "América",
       code: "america",
     },
     {

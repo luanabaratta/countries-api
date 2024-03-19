@@ -17,6 +17,7 @@
 
 .navbar .logo, .navbar .app-links h5 {
   gap: 4px;
+  color: var(--clr-white);
 }
 
 .navbar .gray {
@@ -30,6 +31,7 @@
   letter-spacing: 1px;
   cursor: pointer;
   transition: var(--transition);
+  border-radius: 4px;
 }
 
 .navbar .app-links div:hover {

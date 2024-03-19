@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from "react";
 import "./Countries.css";
-import { AiFillCaretRight, AiOutlineShareAlt } from "react-icons/ai";
-import { FaHeart } from "react-icons/fa";
+import { AiFillCaretRight
+} from "react-icons/ai";
 import maping from "../../assets/Africas.jpg";
 import { useParams } from "react-router";
 import axios from "axios";
@@ -46,10 +46,6 @@ const CountryDetails = () => {
                       <h1>{countryData.name.common}</h1>
                       <h3>{countryData.capital}</h3>
                     </div>
-                    <div>
-                      <AiOutlineShareAlt />
-                      <FaHeart />
-                    </div>
                   </div>
                 </header>
                 <section>
@@ -80,7 +76,7 @@ const CountryDetails = () => {
                   <aside>
                     <div className="country-location">
                     <h3>Localização</h3>
-                      <img src={maping} alt="" />
+                      <img src={maping} alt="mapa" />
                       <Link to={countryData.maps.googleMaps}>
                         <p>{countryData.maps.googleMaps}</p>
                       </Link>
