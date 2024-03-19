@@ -10,7 +10,7 @@ const Navbar = () => {
             <ul>
               <li className="logo center">
                 <BsCodeSlash />
-                <h3>Dev<span className="gray">Moon</span></h3>
+                <h3>Dev<span className="gray">Mundo</span></h3>
               </li>
               <li className="app-links">
                 <div>

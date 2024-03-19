@@ -1,13 +1,22 @@
 import './App.css'
 import Navbar from "./components/Navbar/Navbar.jsx";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Countries from "./pages/countries/Countries.jsx";
 
 function App() {
 
   return (
     <>
-      <Navbar />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Countries />}/>
+          {/*<Route path="/mapa" element={<Map />}/>*/}
+          {/*<Route path="/paises/:countryname" element={<CountryDetails />} />*/}
+        </Routes>
+      </Router>
     </>
   )
 }
 
-export default App
+export default App;
