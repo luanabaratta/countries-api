@@ -9,10 +9,10 @@ se você se interessar em saber mais sobre algum país específico, clique nele 
 
 **Funcionalidades**
 
-[x] Tela Inicial Com Todos os Países <br />
-[x] Segunda tela para visualização de mais detalhes do país <br />
-[x] Filtrar por nome ou região <br />
-[x] Responsivo
+- [x] Tela Inicial Com Todos os Países <br />
+- [x] Segunda tela para visualização de mais detalhes do país <br />
+- [x] Filtrar por nome ou região <br />
+- [x] Responsivo
 
 **Tecnologias**
 
