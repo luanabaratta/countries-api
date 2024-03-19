@@ -8,7 +8,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 
 const CountryDetails = () => {
-  const { countryname } = useParams();
+  const { countryname } = useParams( );
   const [countryData, setCountryData] = useState(null);
 
   useEffect(() => {
@@ -53,16 +53,16 @@ const CountryDetails = () => {
                 </header>
                 <section>
                   <main>
-                    <img src={countryData.flags.png} alt="" />
+                    <img src={countryData.flags.png} alt="bandeira" />
                     <div className="country-specifications">
-                      <h3>Info</h3>
+                      <h3>Informações</h3>
                       <div className="specs center">
                         <div>
-                          <h3>Official Name: </h3>
+                          <h3>Nome oficial: </h3>
                           <h4>{countryData.name.official}</h4>
                         </div>
                         <div>
-                          <h3>Continent:</h3>
+                          <h3>Continente:</h3>
                           <h4>{countryData.region}</h4>
                         </div>
                         <div>
@@ -70,11 +70,7 @@ const CountryDetails = () => {
                           <h4>{countryData.capital}</h4>
                         </div>
                         <div>
-                          <h3>Timezones:</h3>
-                          <h4>{countryData.timezones}</h4>
-                        </div>
-                        <div>
-                          <h3>Population:</h3>
+                          <h3>População:</h3>
                           <h4>{countryData.population}</h4>
                         </div>
                       </div>
@@ -82,14 +78,14 @@ const CountryDetails = () => {
                   </main>
                   <aside>
                     <div className="country-location">
-                      <h3>Location</h3>
-                      <img src={mapimg} alt="" />
+                      <h3>Localização</h3>
+                      <img src={maping} alt="" />
                       <Link to={countryData.maps.googleMaps}>
                         <p>{countryData.maps.googleMaps}</p>
                       </Link>
                     </div>
                     <div className="languages">
-                      <h3>Languages</h3>
+                      <h3>Idioma</h3>
                       <ul>
                         {Object.values(countryData.languages).map(
                             (language, index) => (
@@ -102,7 +98,7 @@ const CountryDetails = () => {
                 </section>
               </>
           ) : (
-              "country details loading"
+              "carregando detalhes do país"
           )}
         </div>
       </>
