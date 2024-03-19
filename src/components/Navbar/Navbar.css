@@ -1,4 +1,57 @@
 .navbar {
   background-color: var(--clr-deep-blue);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  z-index: 999;
+  padding: 1rem 4rem;
+  color: var(--clr-white);
+}
 
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar .logo, .navbar .app-links h5 {
+  gap: 4px;
+}
+
+.navbar .gray {
+  color: #bcbaba;
+}
+
+.navbar .app-links > div {
+  border: 2px solid var(--clr-dark-blue);
+  height: fit-content;
+  padding: 0.27rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.navbar .app-links div:hover {
+  background-color: var(--clr-dark-blue);
+}
+
+.navbar, .app-links h5 {
+  gap: 0.3rem;
+  font-weight: 600;
+  color: var(--clr-white);
+}
+/* =====For Small screens====== */
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    padding: 1rem 2rem;
+  }
+  .navbar .app-links div {
+    padding: 0.6rem;
+    font-weight: 400;
+  }
+  .navbar .app-links span {
+    display: none;
+  }
 }
