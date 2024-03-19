@@ -1,6 +1,7 @@
 import './Navbar.css';
 import {BsCodeSlash} from "react-icons/bs";
 import {AiOutlineGlobal} from "react-icons/ai";
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -14,10 +15,12 @@ const Navbar = () => {
               </li>
               <li className="app-links">
                 <div>
-                  <h5 className="cente">
-                    <AiOutlineGlobal />
-                    <span>Abrir o mapa</span>
-                  </h5>
+                  <Link to="/mapa">
+                    <h5 className="cente">
+                      <AiOutlineGlobal/>
+                      <span>Abrir o mapa</span>
+                    </h5>
+                  </Link>
                 </div>
               </li>
             </ul>

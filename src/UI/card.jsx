@@ -29,18 +29,18 @@ const CountriesCards = ({ data }) => {
                       <div className="projcard-textbox">
                         <div className="projcard-title">{name.common}</div>
                         <div className="projcard-subtitle">
-                          Capital:{capital ? capital[0] : ""}
+                          Capital: {capital ? capital[0] : ""}
                         </div>
                         <div className="projcard-bar"></div>
                         <div className="projcard-description">
                       <span>
                         {languages ? Object.keys(languages).length : ""}{" "}
                       </span>
-                          languages,
+                          idioma(s),
                           <span>{population}</span> hab.,
-                          <span>{area} </span>km<sup>2</sup>,
+                          <span>{area}</span>km<sup>2</sup>,
                           <span>{currencies ? currencies[0]?.name : ""} </span>{" "}
-                          fuso-horário <span>{timezones}</span>
+                          <span>{timezones}</span> fuso-horário(s)
                         </div>
                       </div>
                     </div>
